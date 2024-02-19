@@ -1,4 +1,4 @@
-const Main = () => {
+const MainContent = () => {
   return (
     <div className="container-main">
       <span>
@@ -27,4 +27,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default MainContent;
