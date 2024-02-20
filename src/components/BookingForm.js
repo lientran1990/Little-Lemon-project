@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const BookingForm = () => {
+const BookingForm = ({ availableTimes, handleDateChanged, submitForm }) => {
   const [form, setForm] = useState({
     date: "",
     time: "",
@@ -10,16 +10,7 @@ const BookingForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    alert(
-      `Submit:` +
-        "date: " +
-        "time: " +
-        form.time +
-        "guest: " +
-        form.guests +
-        "occasion: " +
-        form.occasion
-    );
+    submitForm(event);
   };
   return (
     <div className="booking-form">
@@ -36,6 +27,7 @@ const BookingForm = () => {
                   ...form,
                   date: e.target.value,
                 });
+                handleDateChanged(e.target.value);
               }}
               required
             />
@@ -51,13 +43,18 @@ const BookingForm = () => {
                   time: e.target.value,
                 });
               }}
+              required
             >
-              <option>17:00</option>
+              {availableTimes.map((availableTime) => {
+                return <option key={availableTime}>{availableTime}</option>;
+              })}
+              required
+              {/* <option>17:00</option>
               <option>18:00</option>
               <option>19:00</option>
               <option>20:00</option>
               <option>21:00</option>
-              <option>22:00</option>
+              <option>22:00</option> */}
             </select>
           </div>
           <div>
@@ -75,6 +72,7 @@ const BookingForm = () => {
                   guests: e.target.value,
                 });
               }}
+              required
             />
           </div>
           <div>
@@ -88,6 +86,7 @@ const BookingForm = () => {
                   occasion: e.target.value,
                 });
               }}
+              required
             >
               <option>Birthday</option>
               <option>Anniversary</option>
