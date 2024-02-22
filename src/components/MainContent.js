@@ -15,7 +15,7 @@ const MainContent = () => {
           served with a modern twist.{" "}
         </p>
         <Link to="/reservation">
-          <button aria-label="On Click">Reserve Table</button>
+          <button aria-label="On Click">Reserve a Table</button>
         </Link>
       </span>
       <img

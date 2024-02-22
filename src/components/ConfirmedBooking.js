@@ -1,14 +1,18 @@
 import React from "react";
+import Header from "./Header";
+import Vector from "../assets/icons/Vector.png";
 
 const ConfirmedBooking = () => {
   return (
-    <div className="comfirm">
-      <div>
-        <h1>
+    <>
+      <Header />
+      <div className="booking-confirmed">
+        <img src={Vector} alt="confirm" width={130} height={130} />
+        <h6>
           Booking has been <span>confirmed!</span>
-        </h1>
+        </h6>
       </div>
-    </div>
+    </>
   );
 };
 

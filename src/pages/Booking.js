@@ -22,7 +22,6 @@ function Booking() {
   const [availableTimesB, setTimes] = useState([]);
   return (
     <div>
-      <h1>This is Booking</h1>
       <Header />
       <BookingForm
         availableTimes={availableTimesB}

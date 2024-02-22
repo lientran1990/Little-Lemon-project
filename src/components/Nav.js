@@ -3,22 +3,22 @@ const Nav = () => {
     <nav>
       <ul id="nav-list">
         <li>
-          <a href="/">HOME</a>&nbsp;&nbsp;&nbsp;
+          <a href="/">Home</a>
         </li>
         <li>
-          <a href="about">ABOUT</a>&nbsp;&nbsp;&nbsp;
+          <a href="about">About</a>
         </li>
         <li>
-          <a href="menu">MENU</a>&nbsp;&nbsp;&nbsp;
+          <a href="menu">Menu</a>
         </li>
         <li>
-          <a href="reservation">RESERVATION</a>&nbsp;&nbsp;&nbsp;
+          <a href="reservation">Reservation</a>
         </li>
         <li>
-          <a href="order">ORDER ONLINE</a>&nbsp;&nbsp;&nbsp;
+          <a href="order">Order Online</a>
         </li>
         <li>
-          <a href="#login">LOGIN</a>&nbsp;&nbsp;&nbsp;
+          <a href="login">Login</a>
         </li>
       </ul>
     </nav>

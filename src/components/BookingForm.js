@@ -93,11 +93,10 @@ const BookingForm = ({ availableTimes, handleDateChanged, submitForm }) => {
             </select>
           </div>
           <div>
-            <input
-              aria-label="On Click"
-              type="submit"
-              value={"Make Your Reservation"}
-            />
+            <button aria-label="On Click" type="submit">
+              {" "}
+              Reservation{" "}
+            </button>
           </div>
         </form>
       </fieldset>

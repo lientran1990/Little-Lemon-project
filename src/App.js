@@ -9,6 +9,7 @@ import {
 import Home from "./pages/Home";
 import Booking from "./pages/Booking";
 import ConfirmedBooking from "./components/ConfirmedBooking";
+import Menu from "./components/Menu";
 
 function App() {
   return (
