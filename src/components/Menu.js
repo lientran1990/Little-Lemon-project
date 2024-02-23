@@ -48,7 +48,8 @@ function Menu() {
             <Card.Text>
               This comes straight from grandma’s recipe book, every last
               ingredient has been sourced and is as authentic as can be
-              imagined. <i class="fa-regular fa-moped"></i>
+              imagined.
+              {/* <i className="fa-regular fa-moped"></i> */}
             </Card.Text>
             <Button variant="primary">Order Delivery </Button>
           </Card.Body>
