@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.9f1fc9a5.css",
+    "main.js": "/react-gh-pages/static/js/main.493404aa.js",
+    "static/js/787.7c4105ee.chunk.js": "/react-gh-pages/static/js/787.7c4105ee.chunk.js",
+    "static/media/bruchetta.svg": "/react-gh-pages/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/greek salad.jpg": "/react-gh-pages/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/Logo.svg": "/react-gh-pages/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.9f1fc9a5.css.map": "/react-gh-pages/static/css/main.9f1fc9a5.css.map",
+    "main.493404aa.js.map": "/react-gh-pages/static/js/main.493404aa.js.map",
+    "787.7c4105ee.chunk.js.map": "/react-gh-pages/static/js/787.7c4105ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f1fc9a5.css",
+    "static/js/main.493404aa.js"
+  ]
+}
