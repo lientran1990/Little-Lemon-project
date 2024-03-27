@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/little-lemon-project/static/css/main.9f1fc9a5.css",
-    "main.js": "/little-lemon-project/static/js/main.7356ab8d.js",
-    "static/js/787.7c4105ee.chunk.js": "/little-lemon-project/static/js/787.7c4105ee.chunk.js",
-    "static/media/bruchetta.svg": "/little-lemon-project/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
-    "static/media/greek salad.jpg": "/little-lemon-project/static/media/greek salad.bed423a1fab5b210e347.jpg",
-    "static/media/Logo.svg": "/little-lemon-project/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
-    "index.html": "/little-lemon-project/index.html",
-    "main.9f1fc9a5.css.map": "/little-lemon-project/static/css/main.9f1fc9a5.css.map",
-    "main.7356ab8d.js.map": "/little-lemon-project/static/js/main.7356ab8d.js.map",
-    "787.7c4105ee.chunk.js.map": "/little-lemon-project/static/js/787.7c4105ee.chunk.js.map"
+    "main.css": "/static/css/main.9f1fc9a5.css",
+    "main.js": "/static/js/main.0d47aac7.js",
+    "static/js/787.7c4105ee.chunk.js": "/static/js/787.7c4105ee.chunk.js",
+    "static/media/bruchetta.svg": "/static/media/bruchetta.29ea078fea3d3120ed22402e901b5bbc.svg",
+    "static/media/greek salad.jpg": "/static/media/greek salad.bed423a1fab5b210e347.jpg",
+    "static/media/Logo.svg": "/static/media/Logo.6c132dfefa69396bba43f72aa595e62f.svg",
+    "index.html": "/index.html",
+    "main.9f1fc9a5.css.map": "/static/css/main.9f1fc9a5.css.map",
+    "main.0d47aac7.js.map": "/static/js/main.0d47aac7.js.map",
+    "787.7c4105ee.chunk.js.map": "/static/js/787.7c4105ee.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f1fc9a5.css",
-    "static/js/main.7356ab8d.js"
+    "static/js/main.0d47aac7.js"
   ]
 }
